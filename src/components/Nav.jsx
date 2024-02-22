@@ -1,7 +1,11 @@
 
+
 const Nav = () => {
   return (
-    <div>Nav</div>
+    <>
+    <h2>Nav</h2>
+    
+    </>
   )
 }
 

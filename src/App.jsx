@@ -1,4 +1,5 @@
-
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Dashboard from './pages/Dashboard';
 import './App.css'
 
 function App() {
@@ -6,7 +7,14 @@ function App() {
 
   return (
     <>
-   <h1>First CRM</h1>>
+    <div className='app'>
+      <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Dashboard />} />
+
+      </Routes>
+      </BrowserRouter>
+    </div>
     </>
   )
 }
