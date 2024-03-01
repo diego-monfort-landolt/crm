@@ -36,7 +36,7 @@ h1 {
   line-height: 1.1;
 }
 
-button {
+.btn-standart {
   border-radius: 8px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
@@ -46,29 +46,11 @@ button {
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
+  box-shadow: 0 0 10px orange;
+}
+.btn-standart:hover {
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.281);
+
 }
 
-button:hover {
-  border-color: #646cff;
-}
 
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: rgba(255, 255, 255, 0.87);
-    background-color: #242424;
-  }
-
-  a:hover {
-    color: #747bff;
-  }
-
-  button {
-    color: rgba(255, 255, 255, 0.87);
-    background-color: #242424;
-  }
-}
