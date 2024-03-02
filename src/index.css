@@ -62,7 +62,6 @@ h1 {
 .dashboard-container {
   padding: 30px;
 }
-
 .ticket-container {
   height: 80vh;
   overflow: scroll;
@@ -93,8 +92,6 @@ nav,.logo-container, .controls-container{
   color: white;
   font-size: 35px;
 }
-
-
 .logo-img {
   width: 70px;
   height: 70px;
