@@ -8,9 +8,7 @@ const Dashboard = () => {
           <TicketCard />
         </div>
         <button className="btn-standart">Hello</button>
-
       </div>
-
     </>
   )
 }
