@@ -63,7 +63,10 @@ h1 {
   padding: 30px;
 }
 
-.ticket-container {}
+.ticket-container {
+  height: 80vh;
+  overflow: scroll;
+}
 
 /* Nav section */
 nav {
@@ -96,4 +99,9 @@ nav,.logo-container, .controls-container{
   width: 70px;
   height: 70px;
   object-fit: cover;
+}
+/* Ticket Card  */
+.ticket-card {
+  width: 100%;
+  display: flex;
 }
