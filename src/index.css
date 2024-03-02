@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -8,6 +9,7 @@
   background-color: #242424;
 
   font-synthesis: none;
+  font-family: "Caveat", cursive;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -32,6 +34,7 @@ body, html {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  font-family: "Caveat", cursive;
 }
 
 .btn-standart {
@@ -56,7 +59,9 @@ h1 {
 }
 
 /* Dashboard section */
-.dashboard-container {}
+.dashboard-container {
+  padding: 30px;
+}
 
 .ticket-container {}
 
@@ -70,17 +75,22 @@ nav {
   align-items: center;
   flex-direction: column;
   justify-content: space-between;
-  margin-right: 10px;
+  text-align: center;
 }
 nav,.logo-container, .controls-container{
-  padding: 20px 15px;
+  padding: 30px 25px;
   display: flex;
   flex-direction: column;
 
 }
-.controls-container {
-  justify-content: space-between;
+.logo-container img{
+  width: 100%;
 }
+.nav-icon {
+  color: white;
+  font-size: 35px;
+}
+
 
 .logo-img {
   width: 70px;
