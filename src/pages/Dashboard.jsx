@@ -18,8 +18,7 @@ const Dashboard = () => {
         <div className="ticket-container">
           <TicketCard avatar={tickets.avatar}/>
           <button className="btn-standart">Hello</button>
-        </div>
-        
+        </div>      
       </div>
     </>
   )
