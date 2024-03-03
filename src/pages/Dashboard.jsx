@@ -16,12 +16,11 @@ const Dashboard = () => {
       <div className="dashboard-container">
         <h1>My Projects</h1>
         <div className="ticket-container">
-          <TicketCard avatar={tickets.avatar}/>
+          <TicketCard />
           <button className="btn-standart">Hello</button>
         </div>      
       </div>
     </>
   )
 }
-
 export default Dashboard
