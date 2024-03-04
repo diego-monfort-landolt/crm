@@ -35,6 +35,8 @@ h1 {
   font-size: 3.2em;
   line-height: 1.1;
   font-family: "Caveat", cursive;
+  border-bottom: 1px solid red;
+
 }
 
 .btn-standart {
@@ -82,7 +84,7 @@ nav {
   justify-content: space-between;
   text-align: center;
 }
-nav,.logo-container, .controls-container{
+nav, .logo-container, .controls-container{
   padding: 30px 25px;
   display: flex;
   flex-direction: column;
