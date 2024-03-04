@@ -75,7 +75,7 @@ h1 {
 /* Nav section */
 nav {
   height: 100vh;
-  background-color: #07166e;
+  background-color: #070007;
   color: #fff;
 
   display: flex;
@@ -88,7 +88,6 @@ nav, .logo-container, .controls-container{
   padding: 30px 25px;
   display: flex;
   flex-direction: column;
-
 }
 .logo-container img{
   width: 100%;
