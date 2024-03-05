@@ -40,12 +40,28 @@ const Dashboard = () => {
       timeestamp: '2024-01-10 T09:38:17+0000'
     }
   ]
+  const uniqueCategories = [
+    ...new Set(tickets?.map(({ category }) => category ))
+  ]
+  console.log(uniqueCategories)
   return (
     <>
       <div className="dashboard-container">
         <h1>My Projects</h1>
         <div className="ticket-container">
-          <TicketCard />
+          {tickets && uniqueCategories?.map((uniqueCategory, categoryIndex) => (
+            <div key={categoryIndex}>
+              <h3>{uniqueCategory}</h3>
+              {tickets.filter(ticket => ticket.category === uniqueCategory )
+              .map((filteredTicket, _index) =>
+                <TicketCard 
+                key={_index}
+                color={filteredTicket.color}
+                ticket={filteredTicket}
+                /> 
+                ) }
+            </div>
+          ))}
           <button className="btn-standart">Hello</button>
         </div>      
       </div>
