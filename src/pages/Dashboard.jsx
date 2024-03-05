@@ -19,7 +19,7 @@ const Dashboard = () => {
       category: 'Q2 2023',
       color: 'blue',
       title: 'Home Button is not Working',
-      owner: 'DiegoDev',
+      owner: 'Diego',
       avatar: 'https://avataaars.io/?avatarStyle=Circle&topType=ShortHairTheCaesar&accessoriesType=Prescription02&hairColor=BrownDark&facialHairType=BeardLight&facialHairColor=Black&clotheType=Hoodie&clotheColor=Gray02&eyeType=Happy&eyebrowType=FlatNatural&mouthType=Default&skinColor=Brown',
       status: 'done',
       priority: 2,
