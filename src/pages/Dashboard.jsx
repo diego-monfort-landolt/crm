@@ -6,7 +6,7 @@ const Dashboard = () => {
     {
       category: 'Q1 2023',
       color: 'red',
-      title: 'Windows GreenShot is not Working',
+      title: 'Sales Button is not Working',
       owner: 'DiegoDev',
       avatar: 'https://avataaars.io/?avatarStyle=Circle&topType=ShortHairTheCaesar&accessoriesType=Prescription02&hairColor=BrownDark&facialHairType=BeardLight&facialHairColor=Black&clotheType=Hoodie&clotheColor=Gray02&eyeType=Happy&eyebrowType=FlatNatural&mouthType=Default&skinColor=Brown' 
     }
