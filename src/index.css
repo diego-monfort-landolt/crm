@@ -94,9 +94,9 @@ nav, .logo-container, .controls-container{
   font-size: 35px;
 }
 .logo-img {
-  width: 90px;
-  height: 60px;
-  object-fit: cover;
+  width: 80px !important;
+  height: 80px !important;
+  object-fit: contain;  
 }
 /* Ticket Card  */
 .ticket-card {
