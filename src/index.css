@@ -113,4 +113,9 @@ nav, .logo-container, .controls-container{
   padding: 30px;
   display: flex;
   align-items: center;
+  color: #fff;
+}
+.ticket-color {
+  width: 15px;
+  margin: 2px;
 }
