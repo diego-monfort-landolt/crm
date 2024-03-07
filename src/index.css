@@ -76,6 +76,7 @@ nav {
   display: flex;
   align-items: center;
   flex-direction: column;
+
   justify-content: space-between;
   text-align: center; 
 }
@@ -109,6 +110,7 @@ nav, .logo-container, .controls-container{
   background-color: #0d0f35;
   margin: 2px;
   padding: 30px;
+  
   display: flex;
   align-items: center;
   color: #fff;
