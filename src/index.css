@@ -124,4 +124,14 @@ nav, .logo-container, .controls-container{
   display: flex;
   justify-content: center;
   width: 80px;
+} 
+.img-container {
+  height: 55px;
+  width: 55px;
+  border-radius: 25px;
+  overflow: hidden;
 }
+.img-container img {
+  width: 100%;
+}
+/* Avatardisplay */
