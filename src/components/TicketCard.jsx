@@ -14,8 +14,8 @@ const TicketCard = ({ color, ticket }) => {
         <div className='ticket-color'></div>
         <h3>{ticket.title}</h3>
         <AvatarDisplay ticket={ticket}/>
-        <StatusDisplay />
-        <PriorityDisplay />
+        <StatusDisplay status={ticket.status} />
+        <PriorityDisplay priority={ticket.priority} />
         <ProgressDisplay />
         <DeleteBlock />
        </Link>

@@ -120,18 +120,25 @@ nav, .logo-container, .controls-container{
   margin: 2px;
   padding: 0;
 }
+/* Avatardisplay */
 .avatar-container {
   display: flex;
   justify-content: center;
   width: 80px;
 } 
 .img-container {
-  height: 55px;
-  width: 55px;
-  border-radius: 25px;
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
   overflow: hidden;
 }
 .img-container img {
   width: 100%;
 }
-/* Avatardisplay */
+/* StatusDisplay */
+.status-display {
+  display: flex;
+  justify-content: center;
+  
+}
+
