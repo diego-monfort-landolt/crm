@@ -56,6 +56,7 @@ const Dashboard = () => {
               .map((filteredTicket, _index) =>
                 <TicketCard 
                 key={_index}
+                id={_index}
                 color={filteredTicket.color}
                 ticket={filteredTicket}
                 /> 

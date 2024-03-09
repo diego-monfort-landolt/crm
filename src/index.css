@@ -120,3 +120,8 @@ nav, .logo-container, .controls-container{
   margin: 2px;
   padding: 0;
 }
+.avatar-container {
+  display: flex;
+  justify-content: center;
+  width: 80px;
+}
