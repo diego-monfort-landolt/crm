@@ -53,6 +53,7 @@ h1 {
 .btn-standart:hover {
   box-shadow: 0 0 10px rgba(255, 0, 0, 0.281);
 }
+
 .app {
   display: flex;
 }
@@ -105,6 +106,8 @@ nav, .logo-container, .controls-container{
 #link {
   display: flex;
   width: 100%;
+  text-decoration: none;
+  color: rgb(46,46,46);
 }
 #link > * {
   background-color: #0d0f35;
@@ -140,5 +143,17 @@ nav, .logo-container, .controls-container{
   display: flex;
   justify-content: center;
   
+}
+/* Priority Display */
+.priority-display {
+  display: flex;
+  justify-content: center;
+}
+.star-container {
+  display: flex;
+}
+.star-container h3 {
+  margin: 7px;
+  padding: 0;
 }
 
