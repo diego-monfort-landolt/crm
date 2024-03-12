@@ -57,7 +57,6 @@ h1 {
 .app {
   display: flex;
 }
-
 /* Dashboard section */
 .dashboard-container {
   padding: 30px;
@@ -67,7 +66,6 @@ h1 {
   height: 80vh;
   overflow: auto;
 }
-
 /* Nav section */
 nav {
   height: 100vh;
