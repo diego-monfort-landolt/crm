@@ -26,13 +26,11 @@ body, html {
   display: flex;
   place-items: center;
 }
-
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
   font-family: "Caveat", cursive;
 }
-
 .btn-standart {
   margin: 10px;
   border-radius: 8px;
@@ -49,11 +47,9 @@ h1 {
   transition: border-color 0.25s;
   box-shadow: 0 0 10px orange;
 }
-
 .btn-standart:hover {
   box-shadow: 0 0 10px rgba(255, 0, 0, 0.281);
 }
-
 .app {
   display: flex;
 }
