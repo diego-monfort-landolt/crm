@@ -142,7 +142,6 @@ nav, .logo-container, .controls-container{
 .status-display {
   display: flex;
   justify-content: center;
-  
 }
 /* Priority Display */
 .priority-display {
