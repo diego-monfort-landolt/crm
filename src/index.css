@@ -163,4 +163,11 @@ nav, .logo-container, .controls-container{
   background-color: rgb(34, 37, 196);
   height: 100%;
 }
-
+/* DeletBlock */
+.delet-block {
+  background-color: rgb(211,211,211);
+  width: 50px;
+  margin: 2px;
+  justify-content: center;
+  align-items: center;
+}
