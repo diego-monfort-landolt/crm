@@ -168,6 +168,19 @@ nav, .logo-container, .controls-container{
   background-color: rgb(211,211,211);
   width: 50px;
   margin: 2px;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
+.delet-icon {
+  width: 20px;
+  height: 20px;
+  border-radius: 15px;
+  background-color: rgb(61,61,61);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  border: 1px solid red;
+}
+

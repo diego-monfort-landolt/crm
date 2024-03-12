@@ -5,7 +5,7 @@ const DeleteBlock = () => {
   }
   return (
     <div className="delet-block">
-      <div className="delet-icon" onClick={deleteTicket} ></div>
+      <div className="delet-icon" onClick={deleteTicket} >❌</div>
     </div>
   )
 }
