@@ -166,7 +166,7 @@ nav, .logo-container, .controls-container{
 }
 /* DeletBlock */
 .delet-block {
-  background-color: rgb(211,211,211);
+  background-color: rgba(211, 211, 211, 0.11);
   width: 50px;
   margin: 2px;
   display: flex;
@@ -183,5 +183,6 @@ nav, .logo-container, .controls-container{
   align-items: center;
   padding: 5px;
   border: 1px solid red;
+  box-shadow: 0 0 10px red;;
 }
 
