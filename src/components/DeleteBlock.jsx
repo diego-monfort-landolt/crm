@@ -1,6 +1,7 @@
 
 const DeleteBlock = () => {
   const deleteTicket = () => {
+    console.log('deleted')
 
   }
   return (
