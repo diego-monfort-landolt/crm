@@ -40,6 +40,15 @@ const Dashboard = () => {
       timeestamp: '2024-01-10 T09:38:17+0000'
     }
   ]
+
+  const colors = [
+    'rgb(255,179,186)',
+    'rgb(255,233,186)',
+    'rgb(255,255,186)',
+    'rgb(186,255,201)',
+    'rgb(186,255,255)'
+  ]
+
   const uniqueCategories = [
     ...new Set(tickets?.map(({ category }) => category ))
   ]
@@ -57,7 +66,7 @@ const Dashboard = () => {
                 <TicketCard 
                 key={_index}
                 id={_index}
-                color={filteredTicket.color}
+                color={colors[categoryIndex] || colors[0] }
                 ticket={filteredTicket}
                 /> 
                 ) }
