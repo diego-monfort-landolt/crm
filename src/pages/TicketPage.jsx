@@ -6,6 +6,7 @@ const TicketPage = () => {
     progress: 0,
     timestamp: new Date().toISOString()
   })
+  
   const editMode = false;
 
   const handleSubmit = () => {
@@ -35,7 +36,7 @@ const TicketPage = () => {
             id="title" 
             type="text" 
             name="title"
-            onChange={handleSubmit}
+            onChange={handleChange}
             required={true}
             value={FormData.title}
              />
