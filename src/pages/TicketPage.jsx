@@ -42,11 +42,8 @@ const TicketPage = () => {
              />
           </section>
         </form>
-
       </div>
     </div>
-   
-    
   )
 }
 
