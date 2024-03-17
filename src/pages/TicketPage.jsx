@@ -12,10 +12,10 @@ const TicketPage = () => {
   const handleSubmit = () => {
     console.log('submitted')
   }
+
   const handleChange = (e) => {
     const value = e.target.value
     const name = e.target.name
-
     setFormData((prevState) => ({
       ...prevState,
       [name]:value
