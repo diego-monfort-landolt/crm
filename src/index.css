@@ -98,8 +98,7 @@ nav, .logo-container, .controls-container{
 #link > * {
   background-color: #0d0f35;
   margin: 2px;
-  padding: 30px;
-  
+  padding: 30px; 
   display: flex;
   align-items: center;
   color: #fff;
