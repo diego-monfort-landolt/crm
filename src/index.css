@@ -61,11 +61,9 @@ nav {
   height: 100vh;
   background-color: #070007;
   color: #fff;
-
   display: flex;
   align-items: center;
   flex-direction: column;
-
   justify-content: space-between;
   text-align: center; 
 }
