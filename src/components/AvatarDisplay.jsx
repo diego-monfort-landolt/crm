@@ -2,7 +2,6 @@ const blankAvatar = 'https://cdn.pixabay.com/photo/2013/07/12/13/22/smiley-14692
 
 const AvatarDisplay = ({ ticket }) => {
   return (
-
     <div className="avatar-container">
     <div className="img-container">
       <img src={ticket.avatar ? ticket.avatar : blankAvatar} alt="Photo of ticketowner - profile image" />
