@@ -6,7 +6,7 @@ const TicketPage = () => {
     progress: 0,
     timestamp: new Date().toISOString()
   })
-  
+
   const editMode = false;
 
   const handleSubmit = () => {
@@ -18,7 +18,7 @@ const TicketPage = () => {
     const name = e.target.name
     setFormData((prevState) => ({
       ...prevState,
-      [name]:value
+      [name]: value
 
     })
     )
@@ -27,19 +27,40 @@ const TicketPage = () => {
 
   return (
     <div className="ticket">
-      <h1>{editMode ? 'Update your Ticket' : 'Create a Ticket!' }</h1>
+      <h1>{editMode ? 'Update your Ticket' : 'Create a Ticket!'}</h1>
       <div className="ticket-container" >
         <form onSubmit={handleSubmit}>
           <section>
             <label htmlFor="title">Title</label>
-            <input 
-            id="title" 
-            type="text" 
-            name="title"
-            onChange={handleChange}
-            required={true}
-            value={FormData.title}
-             />
+            <input
+              id="title"
+              type="text"
+              name="title"
+              onChange={handleChange}
+              required={true}
+              value={formData.title}
+            />
+
+            <label htmlFor="description">Description</label>
+            <input
+              id="description"
+              type="text"
+              name="description"
+              onChange={handleChange}
+              required={true}
+              value={formData.description}
+            />
+
+            <label htmlFor="new-category">New Categoryn</label>
+            <input
+              id="new-category"
+              type="text"
+              name="category"
+              onChange={handleChange}
+              required={true}
+              value={formData.category}
+            />
+
           </section>
         </form>
       </div>
