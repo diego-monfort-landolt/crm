@@ -180,13 +180,10 @@ nav, .logo-container, .controls-container{
 /* TicketPage */
 .ticket {
   text-align: center;
-  
 }
 .ticket-container label{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  
-  
 }
