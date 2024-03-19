@@ -19,7 +19,6 @@ const TicketPage = () => {
     setFormData((prevState) => ({
       ...prevState,
       [name]: value
-
     })
     )
   }
