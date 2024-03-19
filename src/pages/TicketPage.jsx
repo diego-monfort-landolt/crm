@@ -36,6 +36,7 @@ const TicketPage = () => {
           <section>
             <label htmlFor="title">Title</label>
             <input
+              autoFocus
               id="title"
               type="text"
               name="title"
