@@ -76,7 +76,6 @@ const TicketPage = () => {
               required={true}
               value={formData.category}
             />
-
           </section>
         </form>
       </div>
