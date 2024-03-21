@@ -78,6 +78,7 @@ const TicketPage = () => {
               value={formData.category}
             />
           </section>
+          <button className="btn-standart">Send</button>
         </form>
       </div>
     </div>
