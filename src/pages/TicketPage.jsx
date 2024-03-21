@@ -22,6 +22,7 @@ const TicketPage = () => {
     })
     )
   }
+  
   const categories = [
     'test1',
     'test2',
