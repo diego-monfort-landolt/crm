@@ -72,7 +72,6 @@ const Dashboard = () => {
                 )}
             </div>
           ))}
-          <button className="btn-standart">Hello</button>
         </div>      
       </div>
     </>

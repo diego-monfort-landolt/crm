@@ -78,7 +78,7 @@ const TicketPage = () => {
               value={formData.category}
             />
           </section>
-          <button className="btn-standart">Send</button>
+          <button className="btn-standart" onClick={() => (alert('its avivable in the next update, sorry'))}>Send</button>
         </form>
       </div>
     </div>
