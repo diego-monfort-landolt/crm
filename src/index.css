@@ -180,7 +180,6 @@ nav, .logo-container, .controls-container{
 /* TicketPage */
 .ticket {
   text-align: center;
-  border-radius: 52px;
 }
 .ticket-container label{
   display: flex;

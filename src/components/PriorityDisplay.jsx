@@ -12,5 +12,4 @@ const PriorityDisplay = ({ priority }) => {
     </div>
   )
 }
-
 export default PriorityDisplay
